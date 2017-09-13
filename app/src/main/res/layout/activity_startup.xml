@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_startup1"
+    tools:context="com.example.surbh_000.pixelmovies.Startup">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/signgoogle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="136dp"
+        android:layout_below="@+id/app_bar"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
